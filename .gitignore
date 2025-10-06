@@ -1,0 +1,78 @@
+# ==========================================
+# 🧠 PORTAFOLIO EDUARDO PIZARRO - .gitignore
+# ==========================================
+
+# === Archivos del sistema / IDE ===
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Archivos temporales y logs ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+*.cache
+*.orig
+*.temp
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Archivos del entorno virtual (Python/Flask) ===
+venv/
+env/
+ENV/
+.venv/
+.env/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# === Configuración y dependencias de Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# === Compilaciones y despliegue ===
+dist/
+build/
+.cache/
+coverage/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# === Archivos sensibles ===
+.env
+.env.*
+config.json
+secrets.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# === Archivos de Docker ===
+*.pid
+*.seed
+docker-compose.override.yml
+**/tmp/
+**/logs/
+
+# === Archivos HTML/CSS/JS temporales ===
+*.min.js.map
+*.min.css.map
+*.map
+
+# === Archivos del portafolio local ===
+# (mantiene limpia la carpeta si pruebas antes de subi
